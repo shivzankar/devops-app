@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE = "shivzankar/devops-app"
+    IMAGE = "REALNAME/devops-app"
     TAG   = "${env.BUILD_NUMBER}"
   }
   stages {
